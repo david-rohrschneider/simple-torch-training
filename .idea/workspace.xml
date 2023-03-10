@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02ff0eab-2e1b-4a06-9c14-10461fbbc080" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.pylintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/LOGGING.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2M3kY1khHnOYo8p4oqR3eIPvJ63" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/drohrschneider/PycharmProjects/simple-torch-training/lib/train&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\lib\train" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\configs" />
+      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\configs\DEFAULT" />
+      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training" />
+      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\lib\args" />
+      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\lib\hyp\configs\classification" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02ff0eab-2e1b-4a06-9c14-10461fbbc080" name="Changes" comment="" />
+      <created>1677003696752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677003696752</updated>
+      <workItem from="1677003697802" duration="3018000" />
+      <workItem from="1677007336173" duration="6039000" />
+      <workItem from="1677052732652" duration="20626000" />
+      <workItem from="1677139391205" duration="15127000" />
+      <workItem from="1677154788807" duration="329000" />
+      <workItem from="1677155133158" duration="14688000" />
+      <workItem from="1677225258780" duration="1040000" />
+      <workItem from="1677412881370" duration="19998000" />
+      <workItem from="1677524556932" duration="7900000" />
+      <workItem from="1677535314466" duration="4953000" />
+      <workItem from="1677575923583" duration="1141000" />
+      <workItem from="1677577094396" duration="16010000" />
+      <workItem from="1677702892466" duration="8399000" />
+      <workItem from="1677794988410" duration="3333000" />
+      <workItem from="1677867681993" duration="293000" />
+      <workItem from="1677867996073" duration="948000" />
+      <workItem from="1677881731158" duration="8876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
