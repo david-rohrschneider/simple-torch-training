@@ -5,9 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ff0eab-2e1b-4a06-9c14-10461fbbc080" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.pylintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/LOGGING.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/default/DATA.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config_loaders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config_loaders/config_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config_loaders/data_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config_loaders/hyp_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config_loaders/logging_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/custom_coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/custom_voc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/helpers/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/logging/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/DEFAULT_HYP.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configs/default/HYP.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/LOGGING.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configs/default/LOGGING.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/args/args_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/args/args_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/args/args_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/args/args_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helpers/allowed_config_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helpers/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helpers/dir_names.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helpers/enums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/helpers/log_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logging/log_messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hyp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/custom_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/hyp/hyp_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/train/train_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logging/train_logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/train/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/train/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +58,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/venv/Lib/site-packages/torch/serialization.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2M3kY1khHnOYo8p4oqR3eIPvJ63" />
   <component name="ProjectViewState">
@@ -51,7 +77,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/drohrschneider/PycharmProjects/simple-torch-training/lib/train&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/Desktop/simple-torch-training&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,16 +87,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\lib\train" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\Desktop\simple-torch-training\lib\helpers" />
+      <recent name="C:\Users\david\Desktop\simple-torch-training\lib\config_loaders" />
+      <recent name="C:\Users\david\Desktop\simple-torch-training\lib\logging" />
+      <recent name="C:\Users\david\Desktop\simple-torch-training\configs\default" />
       <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\configs" />
-      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\configs\DEFAULT" />
-      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training" />
-      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\lib\args" />
-      <recent name="C:\Users\drohrschneider\PycharmProjects\simple-torch-training\lib\hyp\configs\classification" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,10 +131,29 @@
       <workItem from="1677867681993" duration="293000" />
       <workItem from="1677867996073" duration="948000" />
       <workItem from="1677881731158" duration="8876000" />
+      <workItem from="1679391482849" duration="23176000" />
+      <workItem from="1679499569648" duration="7146000" />
+      <workItem from="1679578424761" duration="9467000" />
+      <workItem from="1679642846516" duration="14211000" />
+      <workItem from="1679663583232" duration="832000" />
+      <workItem from="1679671091788" duration="6783000" />
+      <workItem from="1679682557625" duration="1504000" />
+      <workItem from="1679984432548" duration="20524000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

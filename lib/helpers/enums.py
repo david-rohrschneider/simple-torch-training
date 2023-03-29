@@ -11,8 +11,10 @@ class LogDirNames(Enum):
 
 class LogFileNames(Enum):
     TRAIN_LOG = "TRAIN_LOG.txt"
+    EVAL_LOG = "EVAL_LOG.txt"
 
 
-class DataPaths(Enum):
-    TRAIN = "train"
-    VALID = "val"
+class CacheDirNames(Enum):
+    ROOT = ".simple-torch-training"
+    DATASETS = "datasets"
+    MODELS = "models"

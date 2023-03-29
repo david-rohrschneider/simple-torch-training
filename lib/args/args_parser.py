@@ -16,10 +16,45 @@ def get_args_parser(add_help=True) -> ArgumentParser:
         required=True
     )
     parser.add_argument(
+        "--torch-hub-repo",
+        default=None,
+        type=str,
+        help="Torch hub repository name"
+    )
+    parser.add_argument(
+        "--torch-hub-pretrained",
+        action="store_true",
+        help="Load pretrained weights from Torch hub"
+    )
+    parser.add_argument(
+        "--dataset",
+        default=None,
+        type=str,
+        help="Train an existing dataset from torch vision api - default: %(default)s"
+    )
+    parser.add_argument(
         "--data-path",
-        default=".",
+        default="./dataset",
         type=str,
         help="Path to your dataset - default: %(default)s"
+    )
+    parser.add_argument(
+        "--data-train",
+        default="train",
+        type=str,
+        help="Training data path - default: %(default)s"
+    )
+    parser.add_argument(
+        "--data-val",
+        default="val",
+        type=str,
+        help="Validation data path - default: %(default)s"
+    )
+    parser.add_argument(
+        "--dataset-type",
+        type=str,
+        help="Type of dataset - imagefolder/coco/voc/custom",
+        required=True
     )
     parser.add_argument(
         "--cuda",
@@ -98,10 +133,24 @@ def get_args_parser(add_help=True) -> ArgumentParser:
         required=True
     )
     parser.add_argument(
-        "--hyp-config",
-        default=None,
-        type=str,
-        help="Path to your config file for hyperparams - default: %(default)s"
+        "--custom-hyp-cfg",
+        help="Enable custom config file for hyperparams",
+        action="store_true"
+    )
+    parser.add_argument(
+        "--custom-log-cfg",
+        help="Enable custom config file for logging",
+        action="store_true"
+    )
+    parser.add_argument(
+        "--custom-data-cfg",
+        help="Enable custom config file for data loading",
+        action="store_true"
+    )
+    parser.add_argument(
+        "--distributed",
+        help="Enable distributed training - default: %(default)s",
+        action="store_true"
     )
 
     return parser
